@@ -408,10 +408,10 @@ a.image{
     background-color: #0284d0;
 }
 .bg-green {
-    background-color: #28a745;
+    background-color:#28a745 ;
 }
 .bg-black {
-    background-color: #1f1f1f;
+    background-color:#28a745;
 }
 .bg-black2 {
     background-color: #262626;
@@ -478,7 +478,7 @@ a.image{
 .opacity-4 { opacity: .4; }
 .opacity-5 { opacity: .5; }
 .opacity-6 { opacity: .6; }
-.opacity-7 { opacity: .7; }
+/* .opacity-7 { opacity: .7; } */
 .opacity-8 { opacity: .8; }
 .opacity-9 { opacity: .9; }
 
@@ -813,7 +813,8 @@ nav .btn-setting {
 }
 .header-appear .navbar .logo-scrolled,
 .navbar .logo-default {
-    display: inline-block;
+    
+    width:10px;
 }
 
 /* nav top default */
@@ -1733,16 +1734,23 @@ header.header-appear .navbar-top-default .header-social a:hover {
     opacity: 0;
     z-index: 2;
     transition: 2s;
+    background:#e6fff9 ;
 }
-.team-classic .team-overlay:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000000;
-    opacity: .7;
+.team-overlay center-block{
+  position: absolute;
+  text-align: justify;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+color: #ffffff;
+opacity: 0;
+z-index: 2;
+transition: 2s;
+background:#e6fff9;
+
+
+    
 }
 .team-classic .item:hover .team-overlay {
     opacity: 1;
@@ -1927,7 +1935,7 @@ ul.social_icon li a.google:focus {
 }
 .cases-image-inner {
     position: relative;
-    padding: 0 15px;
+    padding:35px;
     width: 100%;
     height: 100%;
     display: flex;
